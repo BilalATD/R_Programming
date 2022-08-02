@@ -1,7 +1,7 @@
 ---
 title: "Introduction to R Programming"
-author: "Sana Rasheed"
-date: "May 14, 2020"
+author: "Bilal Akram"
+date: "August 2, 2022"
 output: html_document
 ---
 
@@ -24,11 +24,23 @@ output: html_document
 
 ```{r }
 #### Start solution ####
-```
-
-
-```{r }
-
+name<-c ("b","i","l","a","l")
+name
+x= name
+x
+y<- 100:120
+y
+x<-c(2,4,6)
+y<-c(8,10,12)
+z<-c(14,16,18)
+cbind(x,y,z)
+rbind(x,y,z)
+names(x)<-c("A","B","C")
+names(y)<-c("D","E","F")
+names(z)<-c("G","H","I")
+x
+y
+z
 ```
 
 
